@@ -87,8 +87,8 @@
         </div>
     </header>
 
-    <!-- 英雄区域 - 调整为50vh高度 -->
-    <section id="home" class="relative min-h-[50vh] flex items-center justify-center overflow-hidden">
+    <!-- 英雄区域 - 调整为60vh高度 -->
+    <section id="home" class="relative min-h-[60vh] flex items-center justify-center overflow-hidden">
         <div class="absolute inset-0 z-0">
             <div class="absolute inset-0 bg-gradient-to-r from-dark/90 to-dark/70 z-10"></div>
             <img src="https://picsum.photos/id/180/1920/1080" alt="区块链技术背景图，显示区块链网络和数字货币" class="w-full h-full object-cover">
@@ -276,14 +276,17 @@
         </div>
     </section>
 
-    <!-- 关于我们 - 公司团队相关图片 -->
+    <!-- 关于我们 - 使用新图片并优化适配 -->
     <section id="about" class="py-20 bg-white">
         <div class="container mx-auto px-4">
             <div class="flex flex-col lg:flex-row items-center gap-12">
-                <div class="lg:w-1/2">
-                    <img src="https://picsum.photos/id/26/600/400" alt="公司团队合作讨论的场景" class="rounded-xl shadow-xl w-full h-auto">
+                <div class="lg:w-1/2 w-full">
+                    <!-- 使用新图片并添加响应式适配 -->
+                    <img src="https://raw.githubusercontent.com/zhaoyawei100/blockchain/refs/heads/main/guanyuwomen1.jpg" 
+                         alt="公司办公环境和团队照片" 
+                         class="rounded-xl shadow-xl w-full h-auto object-cover max-w-full mx-auto">
                 </div>
-                <div class="lg:w-1/2">
+                <div class="lg:w-1/2 w-full">
                     <h2 class="text-[clamp(1.8rem,3vw,2.5rem)] font-bold mb-6">
                         <span class="zh">关于我们</span>
                         <span class="en hidden">About Us</span>
